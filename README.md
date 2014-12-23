@@ -32,7 +32,7 @@ You might've noticed, if you've been exploring your new installation in the term
     sudo touch /etc/modprobe.d/disable_sound
     sudo echo "blacklist pcspkr" >> /etc/modprobe.d/disable_sound
 
-
+The above commands first create a file "disable_sound" in the modprobe.d folder, and then appends "blacklist pcspkr" to the file, which disables the pc-speaker module that causes the problem. This change is automatically loaded on startup.
 
 
 
