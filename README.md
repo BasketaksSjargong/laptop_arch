@@ -19,6 +19,19 @@ The Evo/Lution ISO can be downloaded from http://www.evolutionlinux.com/. Procee
 Proceed with the installation as prompted. Chosing Gnome+Extras as your window manager when asked.
 When done, reboot the computer and boot into the new ArchLinux installation. Congratulations!
 
+## Terminal Emulator
+
+The thing I usually configure first on a new linux installation is the terminal. The terminal is our home, so
+might as well make it livable as soon as possible. By default, bundled with our Evo/Lution install is Xterm.
+In itself a pretty configurable terminal emulator, but by god is it sluggish and heavy to use. My terminal of choice is Terminator, because this is the terminal I'm most proficient with. I've been recommended URXTV very very often, but I will stick to Terminator for now.
+
+* Disable terminal beep
+
+You might've noticed, if you've been exploring your new installation in the terminal that when backspacing or autocompleting a horrifying beep is sounded. This can become very annoying very quickly and I do not know why this is enabled by default. It is very easy to disable this.
+
+  sudo touch /etc/modprobe.d/disable_sound
+  sudo echo "blacklist pcspkr" >> /etc/modprobe.d/disable_sound
+
 
 
 
