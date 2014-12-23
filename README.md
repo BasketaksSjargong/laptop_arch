@@ -29,8 +29,8 @@ In itself a pretty configurable terminal emulator, but by god is it sluggish and
 
 You might've noticed, if you've been exploring your new installation in the terminal that when backspacing or autocompleting a horrifying beep is sounded. This can become very annoying very quickly and I do not know why this is enabled by default. It is very easy to disable this.
 
-  sudo touch /etc/modprobe.d/disable_sound
-  sudo echo "blacklist pcspkr" >> /etc/modprobe.d/disable_sound
+    sudo touch /etc/modprobe.d/disable_sound
+    sudo echo "blacklist pcspkr" >> /etc/modprobe.d/disable_sound
 
 
 
