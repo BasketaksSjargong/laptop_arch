@@ -62,5 +62,20 @@ I like disabling the title-bar under Profiles/General options, as well as enabli
 
 ### Terminal Shell
 
-By default, our shell is Bash. Here it's all up to personal preference, but I can't recommend ZSH enough. With superior tab-completion and a lot of nifty commands and shortcuts ZSH has quickly become a favorite of mine.
+By default, our shell is Bash. Here it's all up to personal preference, but I can't recommend ZSH enough. With superior tab-completion and a lot of nifty commands and shortcuts ZSH has quickly become a favorite of mine. We're going to be using Oh-My-Zsh as a baseline framework for our shell configuration. Oh-My-Zsh is just a bundle of good out of the box plugins and themes.
+
+* Install Zsh and Oh-My-Zsh
+
+First we need to install the shell itself.
+
+    sudo pacman -S zsh
+    
+We then install Oh-My-Zsh using the program Curl to download the installation script, and piping it directly into our shell.
+
+    curl -L http://install.ohmyz.sh | sh
+    
+
+
+
+
 
