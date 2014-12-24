@@ -19,6 +19,12 @@ The Evo/Lution ISO can be downloaded from http://www.evolutionlinux.com/. Procee
 Proceed with the installation as prompted. Chosing Gnome+Extras as your window manager when asked.
 When done, reboot the computer and boot into the new ArchLinux installation. Congratulations!
 
+* Wallpaper 
+* 
+Before we do anything else. I like to have a nice wallpaper to look at while configuring the rest of my installation.
+I am very fond of the Facet Wallpapers that can be found here http://imgur.com/a/k83u0.
+Pick one you like and download it. Gnome Desktop makes it easy for us to change the wallpaper. Just right-click the desktop and click Change Background.
+
 ## Terminal Emulator
 
 The thing I usually configure first on a new linux installation is the terminal. The terminal is our home, so
