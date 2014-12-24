@@ -20,7 +20,7 @@ Proceed with the installation as prompted. Chosing Gnome+Extras as your window m
 When done, reboot the computer and boot into the new ArchLinux installation. Congratulations!
 
 * Wallpaper 
-* 
+
 Before we do anything else. I like to have a nice wallpaper to look at while configuring the rest of my installation.
 I am very fond of the Facet Wallpapers that can be found here http://imgur.com/a/k83u0.
 Pick one you like and download it. Gnome Desktop makes it easy for us to change the wallpaper. Just right-click the desktop and click Change Background.
@@ -78,6 +78,26 @@ We now need to set ZSH to our default shell. We do this with the following comma
 
     chsh -s /bin/zsh
     
+### Terminal color scheme
+
+I'm very fond of dark color schemes. For this installation I am going to go with the scheme Spacegray. This is a color scheme designed for use with Vim, and we'll get back to that later, but we'll also use this as our theme in Terminator.
+
+* Enable 256-color support in terminal
+
+By default, our terminal only supports 8 colors. You can see how many colors your terminal currently supports by running the command
+
+    tput colors
+
+In my case it returns 8.
+We want this be 256, otherwise a lot of color schemes that are based on 256 colors are going to look funky. Luckily, most modern terminal emulators support 256 colors.
+
+In our .zshrc file we want to add the line
+
+    # Enable 256 color support
+    export TERM="xterm-256color"
+    
+Now, just 
+
 
 
 
