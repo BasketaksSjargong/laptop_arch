@@ -25,7 +25,9 @@ Before we do anything else. I like to have a nice wallpaper to look at while con
 I am very fond of the Facet Wallpapers that can be found here http://imgur.com/a/k83u0.
 Pick one you like and download it. Gnome Desktop makes it easy for us to change the wallpaper. Just right-click the desktop and click Change Background.
 
-## Terminal Emulator
+## Terminal Enviroment
+
+### Terminal Emulator
 
 The thing I usually configure first on a new linux installation is the terminal. The terminal is our home, so
 might as well make it livable as soon as possible. By default, bundled with our Evo/Lution install is Xterm.
@@ -57,3 +59,8 @@ I like disabling the title-bar under Profiles/General options, as well as enabli
 * Start of line is Ctrl+A (nifty if you forget sudo in front of a command)
 
 * End of line is Ctrl+E
+
+### Terminal Shell
+
+By default, our shell is Bash. Here it's all up to personal preference, but I can't recommend ZSH enough. With superior tab-completion and a lot of nifty commands and shortcuts ZSH has quickly become a favorite of mine.
+
