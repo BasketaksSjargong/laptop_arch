@@ -191,3 +191,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " YouCompleteMe
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
+let g:ycm_lobal_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
