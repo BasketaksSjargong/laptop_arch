@@ -104,12 +104,29 @@ again. It now returns 256.
 
 * Download spacegray.terminator
 
-Download spacegray.terminator from https://github.com/ajh17/Spacegray.vim/blob/master/spacegray.terminator
+Download spacegray.terminator from https://github.com/ajh17/Spacegray.vim/blob/master/spacegray.terminator.
 Now, this is a complete terminator config file. We want to copy its contents to ~/.config/terminator/config and overwrite whatever settings are there. This is going to overwrite some settings. So we're going to have to enter the Terminator settings we changed earlier once again. You might also notice that the font size and shape has changed. This is all personal preference, but I chose to move it back to default for now by ticking "Use the system fixed width font" and "Allow bold text" again.
 
+![Image](https://github.com/BasketaksSjargong/laptop_arch/blob/master/screenshots/Spacegray_terminal_installed.png)
+
+## Text Editor
+
+And now, finally to my favorite part of any linux installation. The text editor.
+My choice of editor is Vim, for reasons not needed to be discussed here.
+All the configuration of Vim is done in either .vimrc or the .vim folder.
+
+* Install Vim and the plugin manager Vundle
 
 
+    sudo pacman -S vim
+    touch ~/.vimrc
+    mkdir -p ~/.vim/bundle && mkdir -p ~/.vim/autoload
+    cd ~/.vim/bundle && git clone https://github.com/gmarik/Vundle.vim
+    
+* Vim color scheme.
 
+As mentioned earlier, we're going to be using the Spacegray colorscheme for Vim as well.
+We can use Vundle to easily install Spacegray directly from Vim. 
 
-
+    
 
