@@ -25,6 +25,12 @@ The thing I usually configure first on a new linux installation is the terminal.
 might as well make it livable as soon as possible. By default, bundled with our Evo/Lution install is Xterm.
 In itself a pretty configurable terminal emulator, but by god is it sluggish and heavy to use. My terminal of choice is Terminator, because this is the terminal I'm most proficient with. I've been recommended URXTV very very often, but I will stick to Terminator for now.
 
+* Install Terminator
+
+
+    sudo pacman -S terminator
+    
+
 * Disable terminal beep
 
 You might've noticed, if you've been exploring your new installation in the terminal that when backspacing or autocompleting a horrifying beep is sounded. This can become very annoying very quickly and I do not know why this is enabled by default. It is very easy to disable this.
@@ -34,5 +40,9 @@ You might've noticed, if you've been exploring your new installation in the term
 
 The above commands first create a file "disable_sound" in the modprobe.d folder, and then appends "blacklist pcspkr" to the file, which disables the pc-speaker module that causes the problem. This change is automatically loaded on startup.
 
+* Basic Terminator configuration
 
+Now, Terminator is really butt-ugly by default. Before we get to the font-settings and color schemes, let's take a look at the settings pane in Terminator. Right click the Terminator window and click Preferences.
+
+I like disabling the title-bar under Profiles/General options, as well as enabling infinite scrollback and disable the scrollbar under Profiles/Scrolling options.
 
