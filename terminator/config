@@ -13,14 +13,15 @@
     scrollbar_position = hidden
     palette = "#2c2f33:#b04c50:#919652:#e2995c:#66899d:#8d6494:#527c77:#606360:#4b5056:#b04c50:#94985b:#e2995c:#66899d:#8d6494:#527c77:#dde3dc"
     login_shell = True
-    background_image = None
+    use_system_font = False
     background_darkness = 0.94
     scrollback_lines = 5000
     active_encodings = ANSI_X3.4-1968, UTF-8, ISO-8859-1
     cursor_color = "#7b7b7b"
     foreground_color = "#b7bbb7"
+    background_image = None
     show_titlebar = False
-    font = Droid Sans Mono 7
+    font = DejaVu Sans Mono 12
     background_color = "#111314"
     scrollback_infinite = True
 [layouts]
