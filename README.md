@@ -107,7 +107,7 @@ again. It now returns 256.
 Download spacegray.terminator from https://github.com/ajh17/Spacegray.vim/blob/master/spacegray.terminator
 Now, this is a complete terminator config file. We want to copy its contents to ~/.config/terminator/config and overwrite whatever settings are there. This is going to overwrite some settings. So we're going to have to enter the Terminator settings we changed earlier once again. You might also notice that the font size and shape has changed. This is all personal preference, but I chose to move it back to default for now by ticking "Use the system fixed width font" and "Allow bold text" again.
 
-
+https://github.com/BasketaksSjargong/laptop_arch/blob/master/screenshots/Spacegray_terminal_installed.png
 
 
 
