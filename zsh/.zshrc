@@ -81,3 +81,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Enable 256-color support
 export TERM="xterm-256color"
+
+# Disable the Gnome GIT GUI
+unset SSH_ASKPASS
