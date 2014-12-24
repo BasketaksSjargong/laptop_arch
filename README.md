@@ -74,6 +74,10 @@ We then install Oh-My-Zsh using the program Curl to download the installation sc
 
     curl -L http://install.ohmyz.sh | sh
     
+We now need to set ZSH to our default shell. We do this with the following command
+
+    chsh -s /bin/zsh
+    
 
 
 
