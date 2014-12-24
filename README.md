@@ -96,7 +96,17 @@ In our .zshrc file we want to add the line
     # Enable 256 color support
     export TERM="xterm-256color"
     
-Now, just 
+Now, just restart Terminator and run
+
+    tput colors
+    
+again. It now returns 256. 
+
+* Download spacegray.terminator
+
+Download spacegray.terminator from https://github.com/ajh17/Spacegray.vim/blob/master/spacegray.terminator
+Now, this is a complete terminator config file. We want to copy its contents to ~/.config/terminator/config and overwrite whatever settings are there. This is going to overwrite some settings. So we're going to have to enter the Terminator settings once again 
+
 
 
 
