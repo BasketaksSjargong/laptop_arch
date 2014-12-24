@@ -48,9 +48,12 @@ I like disabling the title-bar under Profiles/General options, as well as enabli
 
 #### Terminator tips and tricks
 
-Clear screen with Ctrl+L. Equivalent to the command
+* Clear screen with Ctrl+L. Equivalent to the command
+
 
     clear
+
     
-Start of line is Ctrl+A (nifty if you forget sudo in front of a command)
-End of line is Ctrl+E
+* Start of line is Ctrl+A (nifty if you forget sudo in front of a command)
+
+* End of line is Ctrl+E
