@@ -109,7 +109,24 @@ Now, this is a complete terminator config file. We want to copy its contents to 
 
 ![Image](https://github.com/BasketaksSjargong/laptop_arch/blob/master/screenshots/Spacegray_terminal_installed.png)
 
+## Text Editor
+
+And now, finally to my favorite part of any linux installation. The text editor.
+My choice of editor is Vim, for reasons not needed to be discussed here.
+All the configuration of Vim is done in either .vimrc or the .vim folder.
+
+* Install Vim and the plugin manager Vundle
 
 
+    sudo pacman -S vim
+    touch ~/.vimrc
+    mkdir -p ~/.vim/bundle && mkdir -p ~/.vim/autoload
+    cd ~/.vim/bundle && git clone https://github.com/gmarik/Vundle.vim
+    
+* Vim color scheme.
 
+As mentioned earlier, we're going to be using the Spacegray colorscheme for Vim as well.
+We can use Vundle to easily install Spacegray directly from Vim. 
+
+    
 
