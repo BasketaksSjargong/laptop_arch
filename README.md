@@ -46,3 +46,11 @@ Now, Terminator is really butt-ugly by default. Before we get to the font-settin
 
 I like disabling the title-bar under Profiles/General options, as well as enabling infinite scrollback and disable the scrollbar under Profiles/Scrolling options.
 
+#### Terminator tips and tricks
+
+Clear screen with Ctrl+L. Equivalent to the command
+
+    clear
+    
+Start of line is Ctrl+A (nifty if you forget sudo in front of a command)
+End of line is Ctrl+E
