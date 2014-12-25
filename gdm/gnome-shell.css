@@ -2605,7 +2605,7 @@ StScrollBar StButton#vhandle:active {
 
 #lockDialogGroup {
     background: #2e3436 url(login-background.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .screen-shield-arrows {
