@@ -37,6 +37,8 @@ if exists(':Plugin')
   Plugin 'tomasr/molokai'
   " Spacegray - Color Scheme
   Plugin 'ajh17/Spacegray.vim'
+  " Seoul256 - Color Scheme
+  Plugin 'junegunn/seoul256.vim'
   call vundle#end()
   filetype plugin indent on
 endif
@@ -90,6 +92,8 @@ set display+=lastline " show the last line that fits in window
 " let g:rehash256=1
 " colorscheme molokai 
 colorscheme spacegray
+" let g:seoul256_background = 234
+" colorscheme seoul256
 
 " Swap-file management 
 " Save them to external directory

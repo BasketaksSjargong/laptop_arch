@@ -21,7 +21,7 @@
     foreground_color = "#b7bbb7"
     background_image = None
     show_titlebar = False
-    font = DejaVu Sans Mono 12
+    font = DejaVu Sans Mono Bold 12
     background_color = "#111314"
     scrollback_infinite = True
 [layouts]
