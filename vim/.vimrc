@@ -11,34 +11,17 @@ call vundle#begin()
 
 if exists(':Plugin')
   " Let vundle manage itself
-  Plugin 'gmarik/Vundle.vim' " Easy commenting in vim
-  Plugin 'tpope/vim-commentary'
+  Plugin 'gmarik/Vundle.vim'
   " Vim defaults anyone can agree on
   Plugin 'tpope/vim-sensible'
-  " Easy git integration is vim
-  Plugin 'tpope/vim-fugitive'
   " Surrounding selections in delimiters.
   Plugin 'tpope/vim-surround'
   " VimAirline - lightweight Powerline
   Plugin 'bling/vim-airline'
-  " EasyAlign - Lightweight alternative to VimTabular
-  Plugin 'junegunn/vim-easy-align'
   " VimLatexSuite(Improved)
   Plugin 'gerw/vim-latex-suite'
-  " Tagbar - Browsing file structure
-  Plugin 'majutsushi/tagbar'
-  " YouCompleteMe - syntactic auto-completion for all languages.
-  Plugin 'Valloric/YouCompleteMe'
-  " NERDTree - Vim File Browser Plugin
-  Plugin 'scrooloose/nerdtree'
-  " Base16 - Color Scheme
-  Plugin 'chriskempson/base16-vim'
-  " Molokai - Color Scheme
-  Plugin 'tomasr/molokai'
   " Spacegray - Color Scheme
   Plugin 'ajh17/Spacegray.vim'
-  " Seoul256 - Color Scheme
-  Plugin 'junegunn/seoul256.vim'
   call vundle#end()
   filetype plugin indent on
 endif
@@ -133,6 +116,7 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""
 " KEY MAPPINGS
 """""""""""""""""""""""""""""""""""""""""""""""""
+" Remapping leader key to Space
 nmap <space> <leader>
 " Treat wrapped lines as true lines when moving
 nmap <expr> j (v:count == 0 ? 'gj' : 'j')
@@ -145,25 +129,6 @@ inoremap jk <Esc>
 syntax on
 " Reindent the entire file
 nmap <leader>= gg=G``:echo "reindent global"<CR>
-
-" Fugitive mappings (vim-fugitive)
-nmap <leader>gs :Gstatus<cr>
-nmap <leader>gc :Gcommit<cr>
-nmap <leader>gd :Gdiff<cr>
-nmap <leader>gp :Git push<cr>
-
-" Latex-Suite
-imap <C-space> <Plug>IMAP_JumpForward
-
-" Tagbar
-nmap <leader>tb :TagbarToggle<CR>
-
-" EasyAlign
-vmap <Enter> <Plug>(EasyAlign)
-nmap <Leader>a <Plug>(EasyAlign)
-
-" NerdTree
-nmap <Leader>nt :NERDTree<CR>
 
 " Moving between windows easily
 nmap <C-j> <C-W>j
@@ -189,10 +154,10 @@ let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 set iskeyword+=:
 
-" NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" " NERDTree
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-" YouCompleteMe
-let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
-let g:ycm_lobal_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
+" " YouCompleteMe
+" let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
+" let g:ycm_lobal_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
