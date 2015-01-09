@@ -20,6 +20,12 @@ if exists(':Plugin')
   Plugin 'bling/vim-airline'
   " VimLatexSuite(Improved)
   Plugin 'gerw/vim-latex-suite'
+  " YouCompleteMe
+  Plugin 'Valloric/YouCompleteMe'
+  " UltiSnips
+  Plugin 'SirVer/ultisnips'
+  " vim-snippets
+  Plugin 'honza/vim-snippets'
   " Spacegray - Color Scheme
   Plugin 'ajh17/Spacegray.vim'
   call vundle#end()
@@ -154,10 +160,13 @@ let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 set iskeyword+=:
 
-" " NERDTree
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" YouCompleteMe
+let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+let g:ycm_server_keep_logfiles = 1
+ 
+" Eclim
+let g:EclimCompletionMethod = 'omnifunc'
 
-" " YouCompleteMe
-" let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
-" let g:ycm_lobal_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
+" UltiSnips
+let g:UltiSnipsExpandTrigger = "<c-e>"
